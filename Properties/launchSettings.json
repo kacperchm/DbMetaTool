@@ -9,7 +9,7 @@
     },
     "ExportScripts": {
       "commandName": "Project",
-      "commandLineArgs": "export-scripts --connection-string \"User=SYSDBA;Password=masterkey;Database=C:\\Users\\chmur\\Desktop\\PROGRAMMING\\RecruitmentTask\\DbMetaTool\\db\\database.fdb;DataSource=localhost;Port=3050;Charset=UTF8;ServerType=0;\" --output-dir \"C:\\Users\\chmur\\Desktop\\PROGRAMMING\\RecruitmentTask\\DbMetaTool\\out\""
+      "commandLineArgs": "export-scripts --connection-string \"User=SYSDBA;Password=masterkey;Database=C:\\Users\\chmur\\Desktop\\PROGRAMMING\\RecruitmentTask\\DbMetaTool\\db\\database.fdb;DataSource=localhost;Port=3050;Charset=UTF8;ServerType=0;\" --output-dir \"C:\\Users\\chmur\\Desktop\\PROGRAMMING\\RecruitmentTask\\DbMetaTool\\outscripts\""
     },
     "UpdateDB": {
       "commandName": "Project",
