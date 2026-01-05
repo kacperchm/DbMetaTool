@@ -1,0 +1,19 @@
+{
+  "profiles": {
+    "DbMetaTool": {
+      "commandName": "Project"
+    },
+    "BuildDB": {
+      "commandName": "Project",
+      "commandLineArgs": "build-db --db-dir \"C:\\Users\\chmur\\Desktop\\PROGRAMMING\\RecruitmentTask\\DbMetaTool\\db\" --scripts-dir \"C:\\Users\\chmur\\Desktop\\PROGRAMMING\\RecruitmentTask\\DbMetaTool\\scripts\""
+    },
+    "ExportScripts": {
+      "commandName": "Project",
+      "commandLineArgs": "export-scripts --connection-string \"User=SYSDBA;Password=masterkey;Database=C:\\Users\\chmur\\Desktop\\PROGRAMMING\\RecruitmentTask\\DbMetaTool\\db\\database.fdb;DataSource=localhost;Port=3050;Charset=UTF8;ServerType=0;\" --output-dir \"C:\\Users\\chmur\\Desktop\\PROGRAMMING\\RecruitmentTask\\DbMetaTool\\out\""
+    },
+    "UpdateDB": {
+      "commandName": "Project",
+      "commandLineArgs": "update-db --connection-string \"User=SYSDBA;Password=masterkey;Database=C:\\Users\\chmur\\Desktop\\PROGRAMMING\\RecruitmentTask\\DbMetaTool\\db\\database.fdb;DataSource=localhost;Port=3050;Charset=UTF8;ServerType=0;\" --scripts-dir \"C:\\Users\\chmur\\Desktop\\PROGRAMMING\\RecruitmentTask\\DbMetaTool\\uscripts\""
+    }
+  }
+}
